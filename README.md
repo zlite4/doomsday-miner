@@ -4,6 +4,7 @@
 My python program that monitors BTC difficulty and starts miner if there is sudden drop in diff. Basically this would work if there were some kind of disaster scenario where most or all Bitcoin mining operations were destroyed or shut down. In theory this could work as for the Bitcoin difficulty would decrease significantly which will activate the miner.
 
 Works with AMD gpu/wildrig or cpu miner option.
+Made to work with Linux may work with Windows maybe with small changes with Popen?
 
 To use type 
 * $ cd doomsday-miner
