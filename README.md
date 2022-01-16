@@ -5,10 +5,10 @@ My python program that monitors BTC difficulty and starts miner if there is sudd
 
 Works with AMD gpu/wildrig or cpu miner option.
 
-To use with venv (virtual environment recommended) type 
-$ cd doomsday-miner
-$ source tool/bin/activate
-$ python3 doomsday.py
+To use type 
+* $ cd doomsday-miner
+* $ source tool/bin/activate
+* $ python3 doomsday.py
 
 Make sure to change any necessary info
 Change line 46 in doomsday.py to your user and preferance GPU (gpu-doomsday-miner.sh) or CPU (miner-cpu-btc.sh). 
