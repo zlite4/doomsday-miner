@@ -3,9 +3,8 @@ import time
 import requests
 import json
 import subprocess
-#import sh
 
-#miner = btc-apocalypse-miner.sh
+
 
 print(""" 
 
@@ -38,10 +37,10 @@ diff = requests.get('https://api.blockchain.info/stats').json()['difficulty']
 
 while True:
 
-    if diff >+ 2437180461434:
+    if diff > 2437180461434:
         print("             Bitcoin difficulty", diff, "Damnn! still stable..")
     time.sleep(20)
-    if diff <- 2437180461434:
+    if diff < 2437180461434:
         print("Difficulty has dropped starting miner.")
         process = subprocess.Popen('/home/<user>/Desktop/doomsday-miner/doomsday-miner.sh', shell=True)
         	 																
