@@ -32,10 +32,8 @@ print("""
 time.sleep(3)
 
 
-
-diff = requests.get('https://api.blockchain.info/stats').json()['difficulty']
-
 while True:
+    diff = requests.get('https://api.blockchain.info/stats').json()['difficulty']
 
     if diff > 2437180461434:
         print("             Bitcoin difficulty", diff, "Damnn! still stable..")
